@@ -1,0 +1,29 @@
+
+input, button, p {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 10px;
+}
+
+
+
+.numberRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.numberRow button {
+  flex: 1;
+}
+
+#input0 {
+  flex: 2;
+}
+
+.smallAction{
+  background-color: brown;
+}
+
+.bigAction{
+  background-color: chocolate;
+}

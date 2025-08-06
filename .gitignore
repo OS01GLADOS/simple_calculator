@@ -1,0 +1,10 @@
+# Node Modules
+/node_modules/
+
+# Editor/IDE specific files
+.vscode/
+*.swp
+.idea/
+
+# Build Output
+/dist/
