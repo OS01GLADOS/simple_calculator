@@ -5,52 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Калькулятор сложения</title>
   </head>
-  <body>
-    <p><span id="result"></span>  <span id="sign"></span></p>
+<body>
+  <div class="numpad">
+    <p><span id="result">0</span> <span id="sign"></span></p>
     <input type="text" id="number" placeholder="0" />
 
-    <div class="numpad">
-
-      <div class="numberRow">
-        <button class="smallAction" id="smallActionAC">AC</button>
-        <button class="smallAction" id="smallActionChangeSign">+/-</button>
-        <button class="smallAction" id="smallActionPercent">%</button>
-
-         <button class="bigAction" id="bigActionDivide">/</button>
-      </div>
-
-      <div class="numberRow">
-        <button id="input7" value=7>7</button>
-        <button id="input8" value=8>8</button>
-        <button id="input9" value=9>9</button>
-
-        <button class="bigAction" id="bigActionMultiply">*</button>
-      </div>
-
-      <div class="numberRow">
-        <button id="input4" value=4>4</button>
-        <button id="input5" value=5>5</button>
-        <button id="input6" value=6>6</button>
-
-        <button class="bigAction" id="bigActionMinus">-</button>
-      </div>
-
-      <div class="numberRow">
-        <button id="input1" value=1>1</button>
-        <button id="input2" value=2>2</button>
-        <button id="input3" value=3>3</button>
-
-        <button class="bigAction" id="bigActionPlus">+</button>
-      </div>
-
-        <div class="numberRow">
-        <button id="input0" value=0>0</button>
-        <button id="Point" value=".">.</button>
-
-        <button class="bigAction" id="bigActionResult">=</button>
-      </div>
+    <div class="numberRow">
+      <button class="smallAction" id="smallActionAC">AC</button>
+      <button class="smallAction" id="smallActionChangeSign">+/-</button>
+      <button class="smallAction" id="smallActionPercent">%</button>
+      <button class="bigAction" id="bigActionDivide">/</button>
     </div>
 
-    <script src="bundle.js"></script>
-  </body>
+    <div class="numberRow">
+      <button id="input7" value=7>7</button>
+      <button id="input8" value=8>8</button>
+      <button id="input9" value=9>9</button>
+      <button class="bigAction" id="bigActionMultiply">*</button>
+    </div>
+
+    <div class="numberRow">
+      <button id="input4" value=4>4</button>
+      <button id="input5" value=5>5</button>
+      <button id="input6" value=6>6</button>
+      <button class="bigAction" id="bigActionMinus">-</button>
+    </div>
+
+    <div class="numberRow">
+      <button id="input1" value=1>1</button>
+      <button id="input2" value=2>2</button>
+      <button id="input3" value=3>3</button>
+      <button class="bigAction" id="bigActionPlus">+</button>
+    </div>
+
+    <div class="numberRow">
+      <button id="input0" value=0>0</button>
+      <button id="Point" value=".">.</button>
+      <button class="bigAction" id="bigActionResult">=</button>
+    </div>
+  </div>
+
+  <script src="bundle.js"></script>
+</body>
 </html>
