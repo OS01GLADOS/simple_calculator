@@ -22,7 +22,7 @@
   --btn-color: #04a6ac;
   --btn-hover: #136a92;
   --text-color: #f1f1f1;
-  --input-bg: #167c77;
+  --input-bg: #1a9993;
   --numpad-color: #08ffea;
 }
 
@@ -121,3 +121,23 @@ button:hover {
 #input0 {
   flex: 3;
 }
+
+fieldset {
+      border: 2px solid var(--btn-color);
+      border-radius: 8px;
+      max-width: 300px;
+      background: var(--input-bg);
+    }
+
+    .theme-option {
+      margin-bottom: 0.5rem;
+    }
+
+    input[type="radio"] {
+      margin-right: 0.5rem;
+      accent-color: var(--btn-hover);
+    }
+
+    label {
+      cursor: pointer;
+    }
