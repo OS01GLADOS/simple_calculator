@@ -159,4 +159,20 @@ document.addEventListener('DOMContentLoaded', () => {
       .replace(/(\..*?)\./g, "$1"); 
     state.inputNumber = input.value 
   });
+
+
+const radios = document.querySelectorAll('input[name="theme"]');
+
+function changeThemes(themeName){
+  document.documentElement.className = themeName;
+}
+
+radios.forEach((radio) => {
+    radio.addEventListener("change", () => {
+      const selectedTheme = document.querySelector('input[name="theme"]:checked').value;
+      changeThemes(selectedTheme)
+      
+    });
+  });
+
 });
